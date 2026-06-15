@@ -1,0 +1,33 @@
+.venv/
+venv/
+_dev_tools/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+
+# Local/generated render outputs.
+*_png/
+frame_*.png
+*.mov
+*.mp4
+*.csv
+
+# Private ride/video/audio source data.
+*.fit
+*.FIT
+*.m4a
+*.M4A
+*.mp3
+*.MP3
+*.wav
+*.WAV
+*.mkv
+*.MKV
+*.avi
+*.AVI
+*.MP4
+*.mp4
+*.MOV

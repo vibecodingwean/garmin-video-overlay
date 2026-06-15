@@ -1,0 +1,24 @@
+{
+  "theme": {
+    "font_size": 44,
+    "small_font_size": 30,
+    "label_font_size": 16,
+    "panel_fill": [4, 8, 12, 132],
+    "accent_fill": [30, 190, 255, 235]
+  },
+  "widgets": {
+    "speed": { "enabled": true, "x": 28, "y": 28, "w": 210, "h": 78 },
+    "distance": { "enabled": true, "x": 250, "y": 28, "w": 190, "h": 78 },
+    "altitude": { "enabled": true, "x": 452, "y": 28, "w": 144, "h": 78 },
+    "heart_rate": { "enabled": true, "x": 608, "y": 28, "w": 150, "h": 78 },
+    "cadence": { "enabled": false, "x": 770, "y": 28, "w": 144, "h": 78 },
+    "power": { "enabled": true, "x": 770, "y": 28, "w": 144, "h": 78 },
+    "temperature": { "enabled": true, "x": 926, "y": 28, "w": 132, "h": 78 },
+    "elevation_profile": { "enabled": true, "x": 28, "y": -28, "w": 520, "h": 128 },
+    "track_map": { "enabled": true, "x": -28, "y": -28, "w": 236, "h": 184 }
+  },
+  "render": {
+    "smoothing_seconds": 1.5,
+    "png_pattern": "frame_%06d.png"
+  }
+}

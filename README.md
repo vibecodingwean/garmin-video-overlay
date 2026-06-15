@@ -220,8 +220,8 @@ python garmin_overlay.py \
 
 ## Example Image
 
-The image in this README is synthetic and contains no real ride, GPS, video, or
-audio data. Regenerate it with:
+The example uses generated telemetry and a fictional route. No recorded ride,
+GPS track, source video or audio is included. Regenerate it with:
 
 ```bash
 python examples/generate_example_image.py

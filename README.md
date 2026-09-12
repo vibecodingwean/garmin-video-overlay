@@ -4,7 +4,7 @@ Render Garmin FIT telemetry as a transparent video overlay for cycling videos.
 The output can be placed over an action-camera clip in DaVinci Resolve or used
 to create a quick burned-in preview video.
 
-![Synthetic Garmin Video Overlay example](examples/example-overlay.png)
+![Garmin Video Overlay with an illustrative mountain cycling background](examples/mountain-overlay.png)
 
 The project is intentionally small: it reads FIT record messages, interpolates
 telemetry to the video frame rate, draws a compact overlay, and exports ProRes
@@ -220,8 +220,11 @@ python garmin_overlay.py \
 
 ## Example Image
 
-The example uses generated telemetry and a fictional route. No recorded ride,
-GPS track, source video or audio is included. Regenerate it with:
+The showcase keeps the original telemetry overlays over an AI-generated mountain
+background. The scenery is illustrative and does not depict the displayed route.
+
+A separate reproducible example uses generated telemetry and a fictional route:
+[`examples/example-overlay.png`](examples/example-overlay.png). Regenerate it with:
 
 ```bash
 python examples/generate_example_image.py
@@ -245,6 +248,7 @@ garmin-video-overlay/
     example_config.json
     generate_example_image.py
     example-overlay.png
+    mountain-overlay.png
 ```
 
 ## Limitations
